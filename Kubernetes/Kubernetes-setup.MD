@@ -66,8 +66,8 @@
 
 1. Validate your cluster
      ```sh
+      #kops export kubecfg --admin (if reprovisioning a stopped instance or new certificate is required)
       kops validate cluster
-      #kops export kubecfg --admin (if reprovision a stopped instance or new certificate required)
     ```
 
 1. To list nodes
